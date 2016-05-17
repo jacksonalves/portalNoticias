@@ -34,7 +34,7 @@ if(isset($_SESSION['usuarioID']) && isset($_SESSION['usuarioNome'])){
         <div id="menu" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             
-              <li class="active"><a href="index.php">Pagina Inicial</a></li>
+              <li class="active"><a href="index.php">Pagina Inicial Do Projeto</a></li>
               <li><a href="adicionarNoticia.php">Adicionar</a></li>
               <li><a href="mostrarNoticias.php">Mostrar Noticia</a></li>
           </ul>
