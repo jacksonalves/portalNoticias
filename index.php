@@ -20,7 +20,7 @@ if(isset($_SESSION['usuarioID']) && isset($_SESSION['usuarioNome'])){
   
     <title>Portal Noticias</title>
 
-    <!-- Bootstrap core CSS  TESTE -->
+    <!-- Bootstrap core CSS  TESTE 33 -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/estilo.css" rel="stylesheet">
 
