@@ -26,6 +26,7 @@ if(isset($_SESSION['usuarioID']) && isset($_SESSION['usuarioNome'])){
 
     </head>
     <body>
+        <!--teste -->
         <div id="site" class="container">
         <div id="banner" >
                 <img id="imgBanner" src="fotos/noticias-logo.png" alt="noticias" />
