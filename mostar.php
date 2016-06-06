@@ -35,14 +35,16 @@ if($_SERVER['REQUEST_METHOD'] == 'GET'){
       <div id="banner" >
                 <img id="imgBanner" src="./fotos/noticias-logo.png" alt="noticias" />
         </div>
-        <div id="menu" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
+       <nav class="navbar navbar-inverse">
+               <ul class="nav navbar-nav">
             
-              <li class="active"><a href="index.php">Pagina Inicial</a></li>
-              <li><a href="adicionarNoticia.php">Adicionar</a></li>
-              <li><a href="mostrarNoticias.php">Mostrar Noticia</a></li>
-          </ul>
-        </div><!-- /.nav-collapse -->
+                    <li class="active"><a href="index.php">Pagina Inicial</a></li>
+                    <li><a href="adicionarNoticia.php">Adicionar</a></li>
+                    <li><a href="mostrarNoticias.php">Mostrar Noticia</a></li>
+          
+          
+                </ul> 
+            </nav>  
       <?php
         for($i=0; $i<1; $i++){
             $noticia = $lista[0];
@@ -56,6 +58,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET'){
          <div>
            <p><b>Autor:</b> <?= $noticia->getAutor()?></p>
            <p ><b>Publicada: </b><?= datetobr($noticia->getData())?></p>
+           <a href="atualizaNoticia.php?id=<?php echo $noticia->getId()?>">Atualizar</a>
          </div>
          
            

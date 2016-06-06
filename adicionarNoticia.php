@@ -11,6 +11,7 @@ session_start();
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/categoria.js"></script>
+        
         <script type="text/javascript">
             function mask_date(field){
                 if(document.getElementById(field).value.length == 2){
@@ -28,14 +29,16 @@ session_start();
             <div id="banner" >
                 <img id="imgBanner" src="fotos/noticias-logo.png" alt="noticias" />
             </div>
-            <div id="menu" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
+            <nav class="navbar navbar-inverse">
+               <ul class="nav navbar-nav">
             
                     <li class="active"><a href="index.php">Pagina Inicial</a></li>
                     <li><a href="adicionarNoticia.php">Adicionar</a></li>
                     <li><a href="mostrarNoticias.php">Mostrar Noticia</a></li>
-                </ul>
-            </div><!-- /.nav-collapse -->
+                    
+          
+                </ul> 
+            </nav>  
             <h1>Cadastro de Noticia</h1>
             <form action="servidor.php" method="POST" enctype="multipart/form-data">
             <table>			

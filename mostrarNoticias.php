@@ -28,14 +28,16 @@
             <div id="banner" >
                 <img id="imgBanner" src="fotos/noticias-logo.png" alt="noticias" />
         </div>
-        <div id="menu" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
+        <nav class="navbar navbar-inverse">
+               <ul class="nav navbar-nav">
             
-              <li class="active"><a href="index.php">Pagina Inicial</a></li>
-              <li><a href="adicionarNoticia.php">Adicionar</a></li>
-              <li><a href="mostrarNoticias.php">Mostrar Noticia</a></li>
-          </ul>
-        </div ><!-- /.nav-collapse -->
+                    <li class="active"><a href="index.php">Pagina Inicial</a></li>
+                    <li><a href="adicionarNoticia.php">Adicionar</a></li>
+                    <li><a href="mostrarNoticias.php">Mostrar Noticia</a></li>
+          
+          
+                </ul> 
+            </nav>  
         <div id="mostraTodas">
             <h1>TODAS AS NOTICIAS</h1>
            <?php 
